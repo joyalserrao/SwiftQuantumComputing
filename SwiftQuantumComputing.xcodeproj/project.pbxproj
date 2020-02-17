@@ -166,6 +166,8 @@
 		FF410F3C221F588300D257EE /* GeneticPopulationCrossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF410F3A221F588300D257EE /* GeneticPopulationCrossover.swift */; };
 		FF410F3E221F591200D257EE /* MainGeneticPopulationCrossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF410F3D221F591200D257EE /* MainGeneticPopulationCrossover.swift */; };
 		FF410F3F221F591200D257EE /* MainGeneticPopulationCrossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF410F3D221F591200D257EE /* MainGeneticPopulationCrossover.swift */; };
+		FF4197A323FB502F00DFEB7D /* Gate+InversionAboutMeanWithRangeInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4197A223FB502F00DFEB7D /* Gate+InversionAboutMeanWithRangeInputs.swift */; };
+		FF4197A423FB502F00DFEB7D /* Gate+InversionAboutMeanWithRangeInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4197A223FB502F00DFEB7D /* Gate+InversionAboutMeanWithRangeInputs.swift */; };
 		FF433871221227CE00AB5C06 /* GeneticGateFactoryTestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF433870221227CE00AB5C06 /* GeneticGateFactoryTestDouble.swift */; };
 		FF433872221227CE00AB5C06 /* GeneticGateFactoryTestDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF433870221227CE00AB5C06 /* GeneticGateFactoryTestDouble.swift */; };
 		FF43387422122C4900AB5C06 /* MainGeneticGatesRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43387322122C4900AB5C06 /* MainGeneticGatesRandomizerTests.swift */; };
@@ -686,6 +688,8 @@
 		FF3EAC93212E06F0007AF61E /* CircuitFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitFactory.swift; sourceTree = "<group>"; };
 		FF410F3A221F588300D257EE /* GeneticPopulationCrossover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticPopulationCrossover.swift; sourceTree = "<group>"; };
 		FF410F3D221F591200D257EE /* MainGeneticPopulationCrossover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGeneticPopulationCrossover.swift; sourceTree = "<group>"; };
+		FF4197A123FB475B00DFEB7D /* GroverAlgorithm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GroverAlgorithm.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF4197A223FB502F00DFEB7D /* Gate+InversionAboutMeanWithRangeInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gate+InversionAboutMeanWithRangeInputs.swift"; sourceTree = "<group>"; };
 		FF433870221227CE00AB5C06 /* GeneticGateFactoryTestDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticGateFactoryTestDouble.swift; sourceTree = "<group>"; };
 		FF43387322122C4900AB5C06 /* MainGeneticGatesRandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGeneticGatesRandomizerTests.swift; sourceTree = "<group>"; };
 		FF43387622123A9200AB5C06 /* GeneticGateTestDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticGateTestDouble.swift; sourceTree = "<group>"; };
@@ -1068,6 +1072,7 @@
 				FF43393923DCD36600E26FA4 /* BernsteinVaziraniAlgorithm.playground */,
 				FF14031D2121C8D40025AD27 /* DeutschAlgorithm.playground */,
 				FF09865D23A6883C009CEC4E /* DeutschJozsaAlgorithm.playground */,
+				FF4197A123FB475B00DFEB7D /* GroverAlgorithm.playground */,
 				FF1116B423B15DA100AFD0AF /* SimonPeriodicityAlgorithm.playground */,
 			);
 			path = Example;
@@ -1695,6 +1700,7 @@
 		FF8B40CD23AEB88100A51475 /* Range */ = {
 			isa = PBXGroup;
 			children = (
+				FF4197A223FB502F00DFEB7D /* Gate+InversionAboutMeanWithRangeInputs.swift */,
 				FF09865E23A68D35009CEC4E /* Gate+OracleWithRangeInputs.swift */,
 				FF8B40D223AED0A100A51475 /* Gate+SingleQubitGateRangeTargets.swift */,
 			);
@@ -2537,6 +2543,7 @@
 				FF5920F02221CEEE00C86F6A /* GeneticCircuitMutationFactory.swift in Sources */,
 				FF2B4C5723BB869A00A388F3 /* XorEquationSystemSimpleSolver.swift in Sources */,
 				FFEB3EE621FFB91C00DD3586 /* GeneticCircuitMutation.swift in Sources */,
+				FF4197A323FB502F00DFEB7D /* Gate+InversionAboutMeanWithRangeInputs.swift in Sources */,
 				FFEB7B4C21EBCC3C009B916B /* OracleTopPositionView.swift in Sources */,
 				FF9BBE34214E7A4C00AD1F78 /* MatrixPositionView.swift in Sources */,
 				FF1116B623B183D300AFD0AF /* String+BitXor.swift in Sources */,
@@ -2829,6 +2836,7 @@
 				FF09866023A68D35009CEC4E /* Gate+OracleWithRangeInputs.swift in Sources */,
 				FF36CB0F23E8D79300C286B2 /* SimulatorCircuitMatrixFactoryAdapter.swift in Sources */,
 				FF78EF5223B909C600BA53A1 /* XorEquationSystemAdapter.swift in Sources */,
+				FF4197A423FB502F00DFEB7D /* Gate+InversionAboutMeanWithRangeInputs.swift in Sources */,
 				FFA6F2B423C24DE600C678C3 /* XorGaussianEliminationSolver.swift in Sources */,
 				FFEB7B4421EBCBF8009B916B /* OracleUpPositionView.swift in Sources */,
 				FF78EF5523B90A7400BA53A1 /* XorEquationSystemFactoryAdapter.swift in Sources */,
